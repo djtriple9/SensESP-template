@@ -30,8 +30,8 @@ void setup() {
                     ->set_hostname("my-sensesp")
                     // Optionally, hard-code the WiFi and Signal K server
                     // settings. This is normally not needed.
-                    ->set_wifi("HillGrownup_IoT", "CuckouCuckou")
-                    //->set_sk_server("192.168.10.3", 80)
+                    ->set_wifi("WiFi_Name", "WiFi_Password")
+                    //->set_sk_server("Signalk Server IP", Port)
                     ->get_app();
 
   // GPIO number to use for the analog input
